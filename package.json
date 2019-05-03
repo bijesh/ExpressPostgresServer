@@ -1,0 +1,21 @@
+{
+  "name": "jira",
+  "version": "1.0.0",
+  "description": "Jira search",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js",
+    "debug": "node --inspect-brk index.js"
+  },
+  "author": "bijesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "pg": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
